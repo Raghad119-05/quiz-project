@@ -71,3 +71,57 @@ body {
     font-size: 40px;
     margin-top: 20px;
   }
+  /* بالونات */
+.balloon {
+  width: 60px;
+  height: 80px;
+  background-color: #f78fb3;
+  border-radius: 50% 50% 50% 50%;
+  position: absolute;
+  bottom: -100px;
+  animation: floatBalloon 6s ease-in-out infinite;
+  z-index: 1;
+}
+
+.balloon1 {
+  left: 10%;
+  animation-delay: 0s;
+}
+.balloon2 {
+  left: 45%;
+  animation-delay: 2s;
+}
+.balloon3 {
+  left: 80%;
+  animation-delay: 4s;
+}
+
+@keyframes floatBalloon {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-600px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* حلويات */
+.candy {
+  width: 50px;
+  position: absolute;
+  z-index: 2;
+}
+.candy1 {
+  top: 40px;
+  left: 20px;
+}
+.candy2 {
+  top: 100px;
+  right: 30px;
+}
