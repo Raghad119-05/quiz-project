@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf1f7;
+    background-image: url('https://www.transparenttextures.com/patterns/candy.png');
+    background-size: contain;
+    color: #333;
+  }
+  
+  .centered {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .start-btn {
+    padding: 15px 30px;
+    background-color: #e9a6c1;
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .quiz-container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #ffeef5;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .choice-btn {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9d6e5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .choice-btn:hover {
+    background-color: #f4bfd4;
+  }
+  
+  .choice-btn.selected {
+    background-color: #df8fbf;
+    color: white;
+  }
+  
+  #feedback {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .congrats-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .birthday-img {
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
+  }
+  
+  .decorations {
+    font-size: 40px;
+    margin-top: 20px;
+  }
